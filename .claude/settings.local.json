@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.csitcp.org)",
+      "WebFetch(domain:cseit2025.org)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

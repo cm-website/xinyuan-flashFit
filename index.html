@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xinyuan Qi - FlashFit Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<!--&lt;!&ndash; Loading Screen &ndash;&gt;-->
+<!--<div id="loadingScreen" class="loading-screen">-->
+<!--    <div class="loader-container">-->
+<!--        <div class="logo-loader">-->
+<!--            <img src="images/app_logo.png" alt="FlashFit" class="loading-logo">-->
+<!--        </div>-->
+<!--        <div class="loading-spinner">-->
+<!--            <div class="spinner"></div>-->
+<!--        </div>-->
+<!--        <p class="loading-text">Loading FlashFit...</p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <h2>Xinyuan Qi</h2>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#introduction" class="nav-link">Project Overview</a>
+            <a href="#project" class="nav-link">FlashFit Details</a>
+            <a href="#technical" class="nav-link">Technical Implementation</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Xinyuan Qi</h1>
+            <!--                <p class="hero-subtitle">Computer Science Student</p>-->
+            <p class="hero-description">
+                Co-authored FlashFit research paper submitted to SPM 2025 conference.
+                Project focuses on virtual clothing fitting using computer vision and mobile technology.
+            </p>
+            <div class="hero-buttons">
+                <a href="#project" class="btn btn-primary">View Project</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="mirror-demo">
+
+                <div class="mirror-frame">
+                    <div class="mirror-content">
+                        <img src="images/app_logo.png" alt="FlashFit App Logo" class="app-logo floating">
+<!--                        <p>FlashFit</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="introduction" class="introduction">
+    <div class="container">
+        <h2 class="section-title">FlashFit: Revolutionizing Online Shopping</h2>
+        <div class="intro-content">
+            <div class="intro-text">
+                <p class="intro-lead">
+                    FlashFit addresses the fundamental challenge of online clothing shopping:
+                    the inability to try on clothes before purchase, leading to high return rates and customer
+                    dissatisfaction.
+                </p>
+                <div class="intro-stats">
+                    <div class="stat-item">
+                        <h3>70%</h3>
+                        <p>Return rate for online clothing purchases</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Real-time</h3>
+                        <p>Virtual try-on experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Cross-platform</h3>
+                        <p>Mobile & Smart Mirror integration</p>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-visual">
+                <div class="app-showcase">
+                    <img src="images/app_logo.png" alt="FlashFit App Logo" class="app-logo-large">
+                    <h3>FlashFit System</h3>
+                    <p>Dual-platform virtual fitting solution</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-overview">
+            <h3>Core Technologies</h3>
+            <div class="tech-stack-grid">
+                <div class="tech-card">
+                    <i class="fab fa-python"></i>
+                    <h4>MediaPipe</h4>
+                    <p>Human landmark recognition for accurate body mapping</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Flutter</h4>
+                    <p>Cross-platform mobile application framework</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-microchip"></i>
+                    <h4>Raspberry Pi</h4>
+                    <p>Embedded system for smart mirror functionality</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-eye"></i>
+                    <h4>Computer Vision</h4>
+                    <p>Advanced image processing and clothing fitting algorithms</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="project" class="project">
+    <div class="container">
+        <h2 class="section-title">FlashFit: Smart Mirror Virtual Fitting System</h2>
+
+        <div class="project-overview">
+            <div class="project-hero">
+                <div class="project-info">
+                    <h3>Research Publication</h3>
+                    <p class="publication-title">
+                        "Flashfit: A Mobile and Smart-Mirror System for Real-Time Virtual Clothing Fitting"
+                    </p>
+                    <p class="conference-info">
+                        Submitted to 12th International Conference on Signal, Image Processing and Multimedia (SPM 2025)
+                    </p>
+                    <div class="authors">
+                        <strong>Authors:</strong> Xinyuan Qi, Garret Washburn
+                    </div>
+                    <div class="paper-link">
+                        <a href="https://www.csitcp.org/abstract/15/1513csit11" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> View Research Paper
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="mirror-showcase">
+                        <div class="physical-mirror">
+                            <h4>Physical Smart Mirror</h4>
+                            <div class="mirror-showcase-img">
+                                <img src="images/mirror.jpg" alt="FlashFit Smart Mirror" class="mirror-photo">
+                            </div>
+                            <p class="mirror-caption">Real-time virtual try-on interface</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-details">
+            <div class="problem-solution">
+                <div class="problem">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Problem Statement</h3>
+                    <p>
+                        Online clothing shopping lacks the ability to try on clothes before purchase,
+                        leading to high return rates and customer dissatisfaction. Traditional e-commerce
+                        platforms cannot replicate the in-store fitting room experience.
+                    </p>
+                </div>
+                <div class="solution">
+                    <h3><i class="fas fa-lightbulb"></i> Innovative Solution</h3>
+                    <p>
+                        FlashFit bridges this gap by providing a dual-platform virtual fitting system
+                        that uses advanced computer vision to enable real-time clothing visualization
+                        on both mobile devices and smart mirrors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="features">
+                <h3>Key Features</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Cross-Platform Mobile App</h4>
+                        <p>Built with Flutter for seamless iOS and Android experience</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-mirror"></i>
+                        <h4>Smart Mirror Integration</h4>
+                        <p>Physical mirror with embedded Raspberry Pi for real-time interaction</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h4>Human Landmark Detection</h4>
+                        <p>Advanced MediaPipe integration for accurate body positioning</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tshirt"></i>
+                        <h4>Dynamic Clothing Fitting</h4>
+                        <p>Intelligent resizing and positioning of clothing items</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="technical" class="technical">
+    <div class="container">
+        <h2 class="section-title">Technical Implementation</h2>
+
+        <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h4>MediaPipe</h4>
+                    <p>Human landmark recognition and pose detection for accurate body mapping</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Flutter</h4>
+                    <p>Cross-platform mobile application framework for iOS and Android deployment</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h4>Raspberry Pi</h4>
+                    <p>Embedded system powering the smart mirror with real-time processing capabilities</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="methodology">
+            <h3>Development Methodology</h3>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Image Processing Pipeline</h4>
+                        <p>Developed algorithms to convert user-uploaded clothing images into PNG format with
+                            transparent backgrounds</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Body Landmark Detection</h4>
+                        <p>Implemented MediaPipe integration for real-time human pose estimation and body proportion
+                            analysis</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Dynamic Scaling Algorithm</h4>
+                        <p>Created intelligent clothing resizing system based on user's body dimensions and
+                            positioning</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Mirror Integration</h4>
+                        <p>Developed embedded system architecture for seamless smart mirror functionality</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenges">
+            <h3>Development Challenges & Solutions</h3>
+            <div class="challenge-list">
+                <div class="challenge-item">
+                    <div class="challenge-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <div class="challenge-content">
+                        <h4>Dynamic Clothing Resizing</h4>
+                        <p><strong>Challenge:</strong> Accurately scaling clothing items to match user's body
+                            proportions</p>
+                        <p><strong>Solution:</strong> Developed proprietary algorithm using landmark ratios and
+                            geometric transformations</p>
+                    </div>
+                </div>
+                <div class="challenge-item">
+                    <div class="challenge-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="challenge-content">
+                        <h4>Image Format Conversion</h4>
+                        <p><strong>Challenge:</strong> Converting various clothing image formats to usable PNG with
+                            transparency</p>
+                        <p><strong>Solution:</strong> Implemented advanced image segmentation and background removal
+                            techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="achievements" class="achievements-section">
+    <div class="container">
+        <h2 class="section-title">Achievements & Development</h2>
+
+        <div class="achievements-grid">
+            <div class="achievement-item"
+                 onclick="openModal('images/Gamegala_2025_award224000-1.jpg', 'GameGala 2025 Award')">
+                <img src="images/Gamegala_2025_award224000-1.jpg" alt="GameGala 2025 Award" class="achievement-img">
+                <div class="achievement-info">
+                    <h4>GameGala 2025 Award</h4>
+                    <p>Recognition for innovation in technology and gaming development</p>
+                </div>
+            </div>
+            <div class="achievement-item"
+                 onclick="openModal('images/president-volunteer-service.jpg', 'President Volunteer Service Award')">
+                <img src="images/president-volunteer-service.jpg" alt="President's Volunteer Service Award"
+                     class="achievement-img">
+                <div class="achievement-info">
+                    <h4>President's Volunteer Service Award</h4>
+                    <p>Recognized for outstanding community service and leadership</p>
+                </div>
+            </div>
+            <div class="achievement-item"
+                 onclick="openModal('images/launchx offer.png', 'LaunchX Program Opportunity')">
+                <img src="images/launchx offer.png" alt="LaunchX Offer" class="achievement-img">
+                <div class="achievement-info">
+                    <h4>LaunchX Program Opportunity</h4>
+                    <p>Entrepreneurship and startup acceleration program invitation</p>
+                </div>
+            </div>
+            <div class="achievement-item"
+                 onclick="openModal('images/leadership-in-business-world-offer.png', 'Leadership in Business World')">
+                <img src="images/leadership-in-business-world-offer.png" alt="Leadership in Business World Offer"
+                     class="achievement-img">
+                <div class="achievement-info">
+                    <h4>Leadership in Business World</h4>
+                    <p>Leadership development and business skills program</p>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <a href="pdf/AlaricaArtificialIntelligence 2(1).pdf">
+                    <img src="images/AlaricaArtificialIntelligence 2(1)-1.jpg"
+                         alt="Leadership in Business World Offer" class="achievement-img">
+                </a>
+
+                <div class="achievement-info">
+                    <h4>Alarica Artificial Intelligence Program</h4>
+                    <p>Comprehensive AI and machine learning program participation with certification documentation</p>
+
+                </div>
+            </div>
+            <div class="achievement-item"
+                 onclick="openModal('images/Image_20250923195336.png', 'USPTO Patent Application Filing Receipt')">
+                <img src="images/Image_20250923195336.png" alt="USPTO Patent Filing Receipt" class="achievement-img">
+                <div class="achievement-info">
+                    <h4>USPTO Patent Application Filing Receipt</h4>
+                    <p>Official U.S. Patent and Trademark Office filing documentation</p>
+                </div>
+            </div>
+            <div class="achievement-item"
+                 onclick="openModal('images/Image_20250923195636.png', 'Top 100 Emerging Innovators of 2025 Award')">
+                <img src="images/Image_20250923195636.png" alt="Top 100 Emerging Innovators Award"
+                     class="achievement-img">
+                <div class="achievement-info">
+                    <h4>Top 100 Emerging Innovators of 2025</h4>
+                    <p>Recognition from University of Delaware Horn Entrepreneurship program</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>
+                    I'm always interested in discussing innovative projects, research opportunities,
+                    and potential collaborations in computer vision and mobile technology.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+
+                    <a href="https://github.com/yourprofile" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Xinyuan Qi. All rights reserved.</p>
+
+    </div>
+</footer>
+
+<!-- Image Modal -->
+<div id="imageModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Modal Image">
+        <div id="modalCaption"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
